@@ -53,3 +53,21 @@ main > section {
 	box-shadow: 5px 5px 2px #cccccc;
 	padding: 15px;
 }
+
+.linkbox {
+	display:flex;
+	justify-content:center;
+	align-items:top;
+	flex-direction:row;
+}
+/*
+	display:grid;
+	grid-template-rows: 100px, auto,100px;
+	grid-template-columns:50px,auto,50px; */
+}
+.linkbox#n1 {
+	/* grid-column:2/3;
+	grid-row:2/3; */
+}
+
+
