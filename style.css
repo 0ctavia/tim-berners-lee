@@ -18,13 +18,38 @@ color:#dd5555;
 font-family: Open Sans;
 }
 
-header {
-	display:flex;
+img#portrait {
+	border-radius:50%;
+	border: #cccccc 3px solid;
+}
+
+a { 
+	background-color:#dd5555;
+	color:#ffffff;
+	padding: 5px;
+	text-decoration:none;
+	border-radius: 5px;
+}
+
+main {
+	width: 500px;
 	font-family:Open Sans;
-	position:absolute;
-	left:calc(50vw - 250px);
-	width:600px;
+	color:#7d7d7d;
+	text-align: center;
+	padding: 15px; 	
+	margin:auto;
+}
+
+main > header {
 	background-color:#ffffff;
-	justify-content: space-between;
-	flex-direction:column;
+	padding: 15px;
+	box-shadow: 5px 5px 2px #cccccc;
+}
+
+main > section {
+	margin-top:15px;
+	margin-bottom:10px;
+	background-color:#ffffff;
+	box-shadow: 5px 5px 2px #cccccc;
+	padding: 15px;
 }
