@@ -1,0 +1,30 @@
+/*This is the stylesheet for the Tim Berners-lee page
+ * The grey-ish background is the following color: #ebebeb
+ * The pink parts are #dd5555
+ * White parts are actually proper white (#ffffff)
+ * The text is not black but #7d7d7d 
+ * The border around the image is #cccccc
+ * The color of the icons and the name under it is also #cccccc*
+ * The box is 500 px wide 
+ * The round image has a diameter of 100px*/
+
+body { 
+background-color:#ebebeb;
+font-family: Open Sans;
+}
+
+h1 {
+color:#dd5555;
+font-family: Open Sans;
+}
+
+header {
+	display:flex;
+	font-family:Open Sans;
+	position:absolute;
+	left:calc(50vw - 250px);
+	width:600px;
+	background-color:#ffffff;
+	justify-content: space-between;
+	flex-direction:column;
+}
